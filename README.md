@@ -9,6 +9,7 @@ I am currently in my last semester of a Bachelor's of Computer Engineering Co-op
 [robotics - capstone](capstone.md)  
 [robotics - FRC](robotics.md)  
 
+
 ## About Me
 
 TODO: (insert bio + image)

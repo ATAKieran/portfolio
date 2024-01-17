@@ -1,15 +1,23 @@
+[home](README.md)
+
 # Work Experience
 This section documents my co-op work experience.
 
 ## Software Developer Intern - Subnet Solutions Inc.
 
-(About subnet)  
+Subnet is a Calgary-based company providing software and engineering services for companies in the electric utility industry. 
 
 I worked at Subnet for two non-consecutive stints: 
 * for my last two official work terms (June 2022-December 2022)
 * the following summer (May-August 2023)
 
-At Subnet, I worked...
+At Subnet, I worked primarily with a small team of three other programmers. Our focus was using Windows UIAutomation libraries to provide a unified experience for substation device control. In practice, this entailed:  
+* Working remotely in an Agile development environment
+* Using Azure DevOps boards to assign and manage epics, features, tasks, and bugs
+* Developing, debugging, and testing programs in C++ and Javascript (scripting, not web development)
+* Development in Visual Studio and VSCode
+* Frequent use of git as version control
+
 
 ## Research Assistant - University of Alberta Centre for Smart Transportation (January-August 2021)
 
