@@ -14,7 +14,7 @@ In 2015, I was a rookie programmer and scout. We won the Utah Regional and atten
 
 ## 2016
 In 2016, I was part of the ATA-sponsored rookie team 6082 Calgary Tech Coalition (CTC). I was involved in most aspects of this robot, including design, manufacturing, assembly, wiring, and driving. We were the finalists at the Western Canada Regional and attended the World Championships in Houston.
-![](ctc.jpg)
+![](CTC.jpg)
 
 ## 2017
 In 2017, I was again involved in many parts of the team, including game design, prototyping, assembly, wiring, and as a member of the drive team. We won the Western Canada Regional and attended the World Championships in Houston.
