@@ -17,4 +17,5 @@ The rail system was our main addition to the system as it had to be designed and
 The control system consisted of two main parts: the microcontroller and the control system. An arduino microcontroller using the AccelStepper and MultiStepper libraries controlled the stepper motors, and received commands from a laptop running our control software. Our software used an inverse kinematics library and a model of the robot to convert our input coordinates into the robot's motion. The link to the project's GitHub repository can be found [here](https://github.com/ECE492-RASPSP1/RASPSP1/).
 
 ## The Result
-[blah](4Q4A1082.MP4)
+![](capstone.jpg)
+[Short Demo Video](capstone_demo.MP4)
