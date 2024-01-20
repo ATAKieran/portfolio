@@ -1,4 +1,7 @@
-[home](README.md)
+[home](README.md)  
+[work experience](wkexp.md)  
+[AI](ai.md)   
+[robotics - FRC](robotics.md)
 
 # Robot Arm Satellite Positioning Simulator (RASPS)
 
@@ -6,7 +9,7 @@ This was my computer engineering design capstone project. Myself and three other
 
 ## The Arm
 
-The robot arm was a 5 degree-of-freedom (DoF) 3D-printed arm based on an [open-source design](https://www.bcn3d.com/bcn3d-moveo-the-future-of-learning-robotic-arm/) and from a previous team's capstone project. The arm had been left to us in an unkown state, so our first task was to diassemble the arm, test each component, and add any missing pieces. The arm was missing a microcontroller, which had to be sourced, installed, and programmed. We also replaced the "claw" at the end of the arm with a mounting plate so that satellite models could be mounted to the arm during motion simulation tests. The completed arm looked like this:
+The robot arm was a 5 degree-of-freedom (DoF) 3D-printed arm based on an [open-source design](https://www.bcn3d.com/bcn3d-moveo-the-future-of-learning-robotic-arm/) and from a previous team's capstone project. The arm had been left to us in an unkown state, so our first task was to diassemble the arm, test each component, and add any missing pieces. The arm was missing a microcontroller, which had to be sourced, installed, and programmed. We also replaced the "claw" at the end of the arm with a mounting plate so that satellite models could be mounted to the arm during motion simulation tests. 
 
 ## The Rail
 

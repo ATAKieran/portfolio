@@ -1,9 +1,13 @@
-[home](README.md)
+[home](README.md)  
+[work experience](wkexp.md)  
+[AI](ai.md)   
+[robotics - capstone](capstone.md)  
+
 
 # FIRST Robotics Competition (FRC)
 
 The FIRST Robotics Competition 
-([FRC](https://www.firstinspires.org/robotics/frc)) 
+([FRC](https://www.firstinspires.org/robotics/frc){:target="_blank"}) 
 is an international high school robotics competition. Each year, a new game is revealed to teams, for which they must build an industrial-sized robot and compete in regional and international events. 
 
 I was on Team 4334 Alberta Tech Alliance (ATA) for all three years of high school (2015-2017). 
