@@ -30,4 +30,9 @@ See my [work experience](wkexp.md) page.
 ## Udacity - Machine Learning Nanodegree
 To prevent myself from going insane while stuck in my house over the summer of 2020, I decided the best remedy for that would be to complete a crash course in machine learning. This course offered an introduction to supervised, unsupervised, and deep learning. Each section included small projects such as landmark classification and flower classification.
 
+Throughout the course, I gained experience working with key libraries in Python. I used NumPy and Pandas for data processing, and we used Scikit-Learn and PyTorch machine learning libraries for examples and projects. We also primarily worked in Jupyter notebooks, some of which I have linked below, along with the course certificate.
+
+[Image Classifier Project notebook](./Image%20Classifier%20Project.html){:target="_blank"}
+[Supervised Learning Project notebook](./finding_donors.html){:target="_blank"}
+
 ![](certificate.png)
