@@ -32,7 +32,7 @@ To prevent myself from going insane while stuck in my house over the summer of 2
 
 Throughout the course, I gained experience working with key libraries in Python. I used NumPy and Pandas for data processing, and we used Scikit-Learn and PyTorch machine learning libraries for examples and projects. We also primarily worked in Jupyter notebooks, some of which I have linked below, along with the course certificate.
 
-[Image Classifier Project notebook](./Image%20Classifier%20Project.html){:target="_blank"}
+[Image Classifier Project notebook](./Image%20Classifier%20Project.html){:target="_blank"}  
 [Supervised Learning Project notebook](./finding_donors.html){:target="_blank"}
 
 ![](certificate.png)
