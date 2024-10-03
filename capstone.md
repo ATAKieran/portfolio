@@ -1,7 +1,8 @@
 [home](README.md)  
-[work experience](wkexp.md)  
+[Work Experience](wkexp.md)  
 [AI](ai.md)   
-[robotics - FRC](robotics.md)
+[Robotics - FRC](robotics.md)  
+[Robotics - Mars Rover](spear.md)
 
 # Robot Arm Satellite Positioning Simulator (RASPS)
 

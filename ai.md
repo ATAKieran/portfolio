@@ -1,7 +1,8 @@
-[home](README.md)  
-[work experience](wkexp.md)  
-[robotics - capstone](capstone.md)  
-[robotics - FRC](robotics.md)
+[Home](README.md)  
+[Work Experience](wkexp.md)  
+[Robotics - Capstone](capstone.md)  
+[Robotics - FRC](robotics.md)  
+[Robotics - Mars Rover](spear.md)
 
 # Machine Learning and Artificial Intelligence
 

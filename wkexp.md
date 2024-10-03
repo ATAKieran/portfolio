@@ -1,16 +1,19 @@
-[home](README.md)  
+[Home](README.md)  
 [AI](ai.md)   
-[robotics - capstone](capstone.md)  
-[robotics - FRC](robotics.md)
+[Robotics - Capstone](capstone.md)  
+[Robotics - FRC](robotics.md)  
+[Robotics - Mars Rover](spear.md)
 
 # Work Experience
-This section documents my co-op work experience.
+
+## Junior Software Developer - Subnet Solutions Inc. (August 2024 - )
+
+As a junior software developer I am expanding on the work I did as an intern. Now, as a full-time employee I am taking on more in-depth tasks in C++ while learning more about the entire framework and the power substation device industry. In the future I also expect to learn Lua script development.  
 
 ## Software Developer Intern - Subnet Solutions Inc.
 
 Subnet is a Calgary-based company providing software and engineering services for companies in the electric utility industry. 
-
-I worked at Subnet for two non-consecutive stints: 
+Prior to joining them full-time, I twice worked at Subnet as an intern: 
 * for my last two official work terms (June 2022-December 2022)
 * the following summer (May-August 2023)
 
