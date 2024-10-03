@@ -1,4 +1,4 @@
-[home](README.md)  
+[Home](README.md)  
 [Work Experience](wkexp.md)  
 [AI](ai.md)   
 [Robotics - FRC](robotics.md)  

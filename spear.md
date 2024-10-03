@@ -12,8 +12,10 @@ Though I was initially part of the software team, developing the rover control s
 <img src="kipp_electrical.jpg" alt="drawing" width="300"/>
 
 ## CIRC 2024
-In August 2024, I attended CIRC 2024 with my team. Over the course of the weekend, we were given a series of tasks to attempt, each of which had to be completed within a certain amount of time. 
-<img src="circ.jpg" alt="drawing" width="300"/>
+In August 2024, I attended CIRC 2024 with my team. Over the course of the weekend, we were given a series of tasks to attempt, each of which had to be completed within a certain amount of time.  
+
+<img src="circ_team.jpg" alt="drawing" width="300"/>
+
 
 One such task was called the Precision Infrastructure and Payload Extraction (PIPE) task, pictured below. In this scenario, we were given 60 minutes to shut off and remove a damaged fuel line and identify the damaged pipes. We then had 60 more minutes to replace the fuel line with a new set of pipes. Here, our rover is turning a dial to turn off the "fuel pump". 
 <img src="circ_task.jpg" alt="drawing" width="300"/>

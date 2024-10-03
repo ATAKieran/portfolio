@@ -1,6 +1,6 @@
 # Kieran Bererton
 
-<img src="headshot.jpg" alt="drawing" width="100"/>
+<img src="headshot.jpg" alt="drawing" width="300"/>
 
 Hello there! Welcome to my portfolio project. Here you will find some information about me, as well as a look at some of my past projects and work experience.  
 
