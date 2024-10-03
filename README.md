@@ -9,5 +9,5 @@ I graduated with a Bachelor's of Computer Engineering Co-op With Distinction fro
 [Work Experience](wkexp.md)  
 [AI](ai.md)   
 [Robotics - Capstone](capstone.md)  
-[Robotics - FRC](robotics.md)
+[Robotics - FRC](robotics.md)  
 [Robotics - Mars Rover](spear.md)
