@@ -1,8 +1,13 @@
-[Home](README.md)  
-[AI](ai.md)   
-[Robotics - Capstone](capstone.md)  
-[Robotics - FRC](robotics.md)  
-[Robotics - Mars Rover](spear.md)
+---
+layout: page
+title: Work Experience
+---
+
+[Home](/)  
+[AI](ai.html)  
+[Robotics - Capstone](capstone.html)  
+[Robotics - FRC](robotics.html)  
+[Robotics - Mars Rover](spear.html)
 
 # Work Experience
 
