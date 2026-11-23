@@ -1,8 +1,13 @@
-[Home](README.md)  
-[Work Experience](wkexp.md)  
-[AI](ai.md)   
-[Robotics - Capstone](capstone.md)  
-[Robotics - FRC](robotics.md)
+---
+layout: page
+title: Space Exploration Alberta Robotics (SPEAR)
+---
+
+[Home](/)  
+[Work Experience](wkexp.html)  
+[AI](ai.html)  
+[Robotics - Capstone](capstone.html)  
+[Robotics - FRC](robotics.html)
 
 # Space Exploration Alberta Robotics (SPEAR)
 
