@@ -1,8 +1,13 @@
-[Home](README.md)  
-[Work Experience](wkexp.md)  
-[Robotics - Capstone](capstone.md)  
-[Robotics - FRC](robotics.md)  
-[Robotics - Mars Rover](spear.md)
+---
+layout: page
+title: Machine Learning and Artificial Intelligence
+---
+
+[Home](/)  
+[Work Experience](wkexp.html)  
+[Robotics - Capstone](capstone.html)  
+[Robotics - FRC](robotics.html)  
+[Robotics - Mars Rover](spear.html)
 
 # Machine Learning and Artificial Intelligence
 
@@ -26,7 +31,7 @@ This elective offered an introduction into the foundational mathematics that gov
 The course included a "mini-project" in which we had to apply several machine learning models to a simple problem of our choosing. I chose to generate classification models for the Titanic passengers dataset, the code for and results of which can be seen in this [notebook](466project.html).
 
 ## University of Alberta Centre for Smart Transportation
-See my [work experience](wkexp.md) page.
+See my [work experience](wkexp.html) page.
 
 ## Udacity - Machine Learning Nanodegree
 To prevent myself from going insane while stuck in my house over the summer of 2020, I decided the best remedy for that would be to complete a crash course in machine learning. This course offered an introduction to supervised, unsupervised, and deep learning. Each section included small projects such as landmark classification and flower classification.
