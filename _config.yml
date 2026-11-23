@@ -6,7 +6,6 @@ description: "Computer engineer and software developer interested in AI, robotic
 url: "https://kzb.ca"
 baseurl: ""
 markdown: kramdown
-permalink: pretty
 defaults:
   - scope:
       path: ""
