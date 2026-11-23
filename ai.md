@@ -42,3 +42,20 @@ Throughout the course, I gained experience working with key libraries in Python.
 [Supervised Learning Project notebook](./finding_donors.html){:target="_blank"}
 
 ![](certificate.png)
+
+## Using AI to build this portfolio
+
+AI tools were used as a development assistant during the redesign of this website. I provided the goals for the redesign—including the visual direction, the intended audience, the content that needed to be preserved, and the requirement that the site remain straightforward to maintain—and used an AI assistant to help translate those requirements into an implementation.
+
+The work included using AI assistance to:
+
+* Explore and refine the visual direction for the dark, technical interface, taking inspiration from the computer displays and interfaces in *Iron Man* while keeping the result practical and readable.
+* Draft and iterate on the site's HTML structure, Jekyll Liquid templates, YAML project data, and responsive CSS.
+* Organize the homepage around reusable project-card data and shared layouts, rather than duplicating the same markup across pages.
+* Review existing Markdown content and image references while preserving the original project and experience write-ups.
+* Troubleshoot implementation issues during preview and testing, including a layout issue that prevented the Markdown content from appearing on individual project pages.
+* Improve the maintenance documentation so future content and design changes are easier to make.
+
+AI generated and suggested implementation code and wording, but it did not independently decide what belongs in the portfolio. The direction, requirements, project history, and final review were provided by me. I remain responsible for checking the code, content, links, images, and behaviour of the finished site.
+
+The website itself is a static Jekyll site. It does not use an AI model or an AI-powered feature at runtime; AI was used as part of the development process, not as a service visitors interact with.
