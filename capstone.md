@@ -1,8 +1,13 @@
-[Home](README.md)  
-[Work Experience](wkexp.md)  
-[AI](ai.md)   
-[Robotics - FRC](robotics.md)  
-[Robotics - Mars Rover](spear.md)
+---
+layout: page
+title: Robot Arm Satellite Positioning Simulator
+---
+
+[Home](/)  
+[Work Experience](wkexp.html)  
+[AI](ai.html)  
+[Robotics - FRC](robotics.html)  
+[Robotics - Mars Rover](spear.html)
 
 # Robot Arm Satellite Positioning Simulator (RASPS)
 

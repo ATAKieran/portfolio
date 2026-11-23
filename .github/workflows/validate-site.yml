@@ -1,0 +1,31 @@
+name: Validate portfolio site
+
+on:
+  push:
+    branches: ["stark-portfolio-redesign"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Build Jekyll site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload preview files
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview
+          path: ./_site
+          if-no-files-found: error
+          retention-days: 7

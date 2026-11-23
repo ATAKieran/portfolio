@@ -1,8 +1,13 @@
-[Home](README.md)  
-[Work Experience](wkexp.md)  
-[AI](ai.md)   
-[Robotics - Capstone](capstone.md)  
-[Robotics - Mars Rover](spear.md)
+---
+layout: page
+title: FIRST Robotics Competition
+---
+
+[Home](/)  
+[Work Experience](wkexp.html)  
+[AI](ai.html)  
+[Robotics - Capstone](capstone.html)  
+[Robotics - Mars Rover](spear.html)
 
 
 # FIRST Robotics Competition (FRC)

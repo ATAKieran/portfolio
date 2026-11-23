@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d13">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="reactor-background" aria-hidden="true">
+    <svg class="reactor-svg" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="reactor-core"><stop offset="0" stop-color="#eaf8ff" stop-opacity=".95"/><stop offset=".12" stop-color="#a8e1ff" stop-opacity=".85"/><stop offset=".32" stop-color="#69bfff" stop-opacity=".28"/><stop offset="1" stop-color="#69bfff" stop-opacity="0"/></radialGradient>
+        <linearGradient id="reactor-ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9f3ff" stop-opacity=".9"/><stop offset=".48" stop-color="#75caff" stop-opacity=".25"/><stop offset="1" stop-color="#d9f3ff" stop-opacity=".75"/></linearGradient>
+        <filter id="reactor-glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>
+      <g class="reactor-halo" filter="url(#reactor-glow)"><circle cx="400" cy="400" r="310" fill="none" stroke="#7bcaff" stroke-opacity=".12" stroke-width="2"/><circle cx="400" cy="400" r="286" fill="none" stroke="#a8e1ff" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 8"/></g>
+      <g class="reactor-rotate reactor-rotate-slow"><circle cx="400" cy="400" r="258" fill="none" stroke="url(#reactor-ring)" stroke-width="3" stroke-dasharray="110 18 34 15 58 22"/><circle cx="400" cy="400" r="238" fill="none" stroke="#8bd3ff" stroke-opacity=".38" stroke-width="1.5" stroke-dasharray="3 7"/><path d="M400 112v34 M400 654v34 M112 400h34 M654 400h34" stroke="#d7f2ff" stroke-opacity=".75" stroke-width="3"/></g>
+      <g class="reactor-rotate reactor-rotate-reverse"><circle cx="400" cy="400" r="208" fill="none" stroke="#8acfff" stroke-opacity=".55" stroke-width="8" stroke-dasharray="1 16"/><circle cx="400" cy="400" r="188" fill="none" stroke="#c6edff" stroke-opacity=".65" stroke-width="2" stroke-dasharray="58 12 9 12"/><circle cx="400" cy="400" r="165" fill="none" stroke="#75caff" stroke-opacity=".45" stroke-width="1.5"/></g>
+      <g class="reactor-rotate reactor-rotate-fast"><circle cx="400" cy="400" r="143" fill="none" stroke="#d5f2ff" stroke-opacity=".65" stroke-width="5" stroke-dasharray="32 12 5 12"/><path d="M400 245l20 20-20 20-20-20z M555 400l-20 20-20-20 20-20z M400 555l-20-20 20-20 20 20z M245 400l20-20 20 20-20 20z" fill="none" stroke="#9bdcff" stroke-opacity=".65" stroke-width="2"/></g>
+      <g stroke="#9bdcff" stroke-opacity=".55" stroke-width="2"><path d="M400 74v24 M400 702v24 M74 400h24 M702 400h24"/><path d="M169 169l18 18 M613 613l18 18 M631 169l-18 18 M187 613l-18-18"/></g>
+      <circle cx="400" cy="400" r="112" fill="url(#reactor-core)" class="reactor-pulse"/><circle cx="400" cy="400" r="74" fill="none" stroke="#d8f3ff" stroke-opacity=".7" stroke-width="2"/><circle cx="400" cy="400" r="56" fill="none" stroke="#8bd3ff" stroke-opacity=".8" stroke-width="5" stroke-dasharray="3 8"/><circle cx="400" cy="400" r="34" fill="url(#reactor-core)" filter="url(#reactor-glow)"/><circle cx="400" cy="400" r="10" fill="#effaff" opacity=".9"/><path d="M400 360v-16 M400 440v-16 M360 400h-16 M440 400h-16" stroke="#e5f7ff" stroke-opacity=".75" stroke-width="2"/>
+    </svg>
+  </div>
+  <header class="site-header">
+    <a class="wordmark" href="{{ '/' | relative_url }}"><span class="wordmark-mark">KB<span>.</span></span><span class="wordmark-copy"><strong>KIERAN BERERTON</strong><small>ENGINEERING PORTFOLIO</small></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}#work">Selected work</a>
+      <a href="{{ '/wkexp.html' | relative_url }}">Experience</a>
+      <a href="{{ '/ai.html' | relative_url }}">AI / ML</a>
+      <a href="{{ '/robotics.html' | relative_url }}">Robotics</a>
+      <a class="nav-github" href="https://github.com/ATAKieran" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+  <main class="page-shell">
+    {% if page.home %}{{ content }}{% else %}
+      <div class="document-topline"><a href="{{ '/' | relative_url }}">← Back to overview</a><span>ENGINEERING / ARCHIVE</span></div>
+      <article class="document-panel"><div class="document-kicker"><span class="live-dot"></span> PROJECT & EXPERIENCE NOTES</div>{{ content }}</article>
+    {% endif %}
+  </main>
+  <footer class="site-footer"><div><span class="footer-mark">KB.</span><span>Designed & built by Kieran Bererton</span></div><span class="footer-meta">COMPUTER ENGINEERING · SOFTWARE DEVELOPMENT</span><a href="https://github.com/ATAKieran" target="_blank" rel="noopener">SOURCE ON GITHUB ↗</a></footer>
+</body>
+</html>
